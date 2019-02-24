@@ -16,6 +16,14 @@
         android:inputType="textPersonName"
         android:textSize="16sp"/>
     <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/input_nik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Induk Kependudukan"
+        android:inputType="number"
+        android:textSize="16sp"
+        app:met_floatingLabel="highlight" />
+    <com.rengwuxian.materialedittext.MaterialEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/input_umur"
@@ -139,6 +147,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/hasil_alamat"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hasil_institusi"
                 android:layout_weight="1"/>
         </LinearLayout>
     </LinearLayout>
